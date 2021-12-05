@@ -1,0 +1,103 @@
+/*  Owner artist-gen1
+     (~Anuj Kothiyal) 
+     github:- https://github.com/artist-gen1/  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.brand {
+    float: left;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    display: inline;
+    line-height: 11vw;
+    margin: 5vw;
+    padding-top: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: blue;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+
+/* front css */
+
+.front {}
+
+
+/* resister css */
+
+.log {
+    background-color: rgb(23, 245, 23);
+    cursor: pointer;
+}
+
+.sign {
+    background-color: rgb(241, 88, 88);
+    cursor: pointer;
+}
+
+.log:hover,
+.sign:hover {
+    background-color: rgb(38, 189, 248);
+}
+
+
+/* quiz-type */
+
+.card {
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 39vh;
+    background-color: orange;
+}
+
+.learn {
+    padding: 1.5vw 3vw;
+    font-weight: bold;
+    margin: 6vh;
+    font-size: 3vh;
+    border-radius: 37px;
+}
+
+.test {
+    padding: 1.5vw 3vw;
+    font-weight: bold;
+    margin: 6vh;
+    font-size: 3vh;
+    border-radius: 37px;
+}
+
+
+/* footer css */
+
+.footer {
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    bottom: 0;
+}
